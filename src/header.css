@@ -1,0 +1,47 @@
+
+.main{
+    width: 404px;
+    background-color: white;
+    /* border: 5px red solid; */
+    margin: 149px 0px 0px 528px;
+    padding: 5px;
+    border-top: 2px black solid;
+    border-right: 2px black solid;
+    border-left: 2px black solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+#logo{
+    font-family: 'Cookie', cursive;
+    margin: 0px 0px 0px 10px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.icons{
+    display: inline-block;
+    float: right;
+    margin: 5px 20px 0px 0px;
+    
+}
+
+
+
+img{
+    margin: -4px 1px 2px 10px;
+}
+.profile{
+    border-radius:25px;
+    margin:-2px -16px 4px 9px;
+    height: 27px;
+    width:27px;
+}
+
+.main>hr{
+    width: 410px;
+    margin-left: -5px;
+    background-color: rgb(195, 195, 195);
+    box-shadow: 0px 1px 2px grey ;
+}

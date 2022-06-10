@@ -1,0 +1,31 @@
+#addmain{
+    display: flex;
+    flex-wrap: wrap;
+    width: 410px;
+    background-color: white;
+    /* border: 5px red solid; */
+    margin: -30px 0px 30px 528px;
+    padding: 2px;
+    border-bottom: inset 10px black solid;
+    border-right: 2px black solid;
+    border-left: 2px black solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+#line{
+    height: 1px;
+    width: 410px;
+    background-color: gray;
+    display: inline-block;
+    margin: 1px 0px 0px -244px;
+    box-shadow: 0px 1px 5px black;
+    z-index: 1;
+}
+
+
+#plus{
+    margin: -24px 0px 0px 177px;
+    z-index: 2;
+}

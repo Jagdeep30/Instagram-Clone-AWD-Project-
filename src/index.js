@@ -1,13 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Header from './header';
+import Info from './main-area';
 import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
+import Popular from './popular';
+import GridIcon from './grid-icon';
+import Grid from './grid';
+import Foot from './footer';
+import Insta from './insta';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Insta/>
+    <Header/>
+    <Info/>
+    <Popular/>
+    <GridIcon/>
+    <Grid/>
+    <Foot/>
   </React.StrictMode>
 );
 
